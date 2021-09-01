@@ -179,8 +179,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 5
-  marginOfError: 0.2
+  marginOfError: 5
   IsAligned: 0
+  target: {x: 0, y: 0, z: 0}
 --- !u!114 &7732553232683123393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 1427166691248465537, guid: bf19c025cb328d048bad99d5c71734c0, type: 3}
-  attackSpeed: 0.5
+  attackSpeed: 3
 --- !u!1 &6726010175912559140
 GameObject:
   m_ObjectHideFlags: 0

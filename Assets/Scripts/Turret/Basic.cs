@@ -18,12 +18,17 @@ public class Basic : MonoBehaviour
 
     private void Shoot()
     {
-        Debug.Log("Shooting");
+        // Instantiate bullet
         GameObject b = Instantiate(bullet) as GameObject;
+
+        // Move bullet to edge of tower
         b.transform.position = transform.position;
         Vector3 rightVector = transform.TransformVector(Vector3.right);
-        Debug.Log(rightVector);
         b.transform.position += rightVector * 0.04f;
+
+        // Give bullet its target - remove z-component to ensure it flies in the field
+        TrackingShot tracking = b.GetComponent<TrackingShot>();
+        tracking.target = new Vector3(la.target.x, la.target.y, transform.position.z);
     }
 
     // Update is called once per frame

@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 7b191fb36d14d114b958fd6c8b995c4f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - grass: {fileID: 8186897941360945161, guid: e22582860bafb30459716cddb8a36286, type: 3}
+  - grassSide: {fileID: 5160789411650067206, guid: 27d91c2ad6ccd3a4b8a3f49f40f7d292, type: 3}
+  - grassSides: {fileID: 3970014460437750896, guid: 62141126067dc824ea437da0a1eb87b1, type: 3}
+  - grassCorner: {fileID: 4485333370572768704, guid: 9560585fb32592649842d2a13d6f6180, type: 3}
+  - grassSurround: {fileID: 5852734455180774907, guid: ed4bd1a5a0d898242b4bbbf7948fa3a5, type: 3}
+  - grassPath: {fileID: 8409941242190174734, guid: f00eadf0a73c7304d91e29c059620d9a, type: 3}
+  - grassTowerBase: {fileID: 5801550000077833525, guid: 7f7a933042beb6c47848c7e0b195ade9, type: 3}
+  - grassSpawn: {fileID: 2410853605395580123, guid: a06686e715c646e4d95d5ae05264ed32, type: 3}
+  - grassBase: {fileID: 9198318601775243342, guid: 68e2336edcd59464c84ec2f7e1055c22, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

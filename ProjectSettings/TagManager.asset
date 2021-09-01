@@ -41,3 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3637423999
+    locked: 0
+  - name: Design
+    uniqueID: 119690831
+    locked: 0
+  - name: Turret
+    uniqueID: 232108665
+    locked: 0
+  - name: Enemy
+    uniqueID: 3452591539
+    locked: 0
+  - name: Effects
+    uniqueID: 3219044863
+    locked: 0
